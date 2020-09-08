@@ -1,0 +1,68 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+}
+.navbar li{
+    padding: 0 30px;
+    display: inline-block;
+}
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active {
+    background-color: rgb(92, 92, 92);
+  }
+.banner {
+    margin-top: 75px;
+}
+#profile-pic{
+    height: 300px;
+    width: autopx;
+    padding: 10px;
+}
+.info-section{
+    padding: 0px 10px;
+}
+.info-section p {
+    font-size: x-large;
+}
+.info-section li {
+    font-size: x-large;
+}
+#name{
+    color: black;
+    font-size: 30px;
+}
+.bold {
+    font-weight: 900;
+    line-height: 0.3;
+}
+.right {
+    float: right;
+}
+.contact {
+    margin-left: 29em;
+    font-size: xx-large;
+}
+.contact a:hover{
+    background: rgb(189, 189, 189);
+}
+.contact-me {
+    text-decoration: none;
+    color: black;
+}
+
+
